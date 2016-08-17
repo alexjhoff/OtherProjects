@@ -1,0 +1,21 @@
+### CustomExplorer log file, revision C-2009.09 (build 0909) ###
+### created at 15:43:00 on Tue Apr 21 2015 (Linux AMD64) ###
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+# (0) fsb dialog open
+# (0) fsb dialog close
+sx_open_sim_file_read "/DCNFS/users/student/ahoff/Documents/ELEN_153/Lab3Part4test.tr0"
+# (0) fsb.ok btn down
+sx_log "disp_sig 1 A P=null file=0 S='' W='v(n$1)'' "
+sx_log "disp_sig 1 A P=0 file=0 S='' W='v(n$2)'' "
+sx_log "disp_sig 1 A P=1 file=0 S='' W='v(y)'' "
+# (0) todoID dialog open
+# (0) todoID.todoID tabsel 0
+# (0) todoID dialog close
+# (0) todoID.todoID btn down
+# (0) todoID dialog open
+# (0) todoID.todoID tabsel 0
+# (0) todoID dialog close
+# (0) todoID.todoID btn down

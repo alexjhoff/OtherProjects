@@ -1,0 +1,18 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "15:42:57 04/21/2015 "
+* "netlist" "Lab3Part4test.cir "
+* "runtitle" ""
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ n$1 =   0.            
++ n$2 =   0.            
++ vdd =   3.3000        
++ y =   3.3000        
++ x_mynand21.n$207 =   1.6500        
+***   END: Saved Operating Point ***                     

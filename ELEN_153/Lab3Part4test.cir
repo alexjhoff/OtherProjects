@@ -1,0 +1,45 @@
+
+
+.OPTIONS POST=1
+
+*
+* .CONNECT statements
+*
+.CONNECT GROUND 0
+
+
+* ELDO netlist generated with ICnet by 'kdaryana' on Tue Apr 21 2015 at 15:05:46
+
+*
+* Globals.
+*
+.global GROUND VDD
+
+*
+* Component pathname : $Lab3/default.group/logic.views/MYNAND2
+*
+.subckt MYNAND2  Y A B
+
+        M4 N$207 B GROUND GROUND NCH L=0.35u W=1.4u M=1
+        M3 Y A N$207 N$207 NCH L=0.35u W=1.4u M=1
+        M2 Y B VDD VDD PCH L=0.35u W=1.4u M=1
+        M1 Y A VDD VDD PCH L=0.35u W=1.4u M=1
+.ends MYNAND2
+
+*
+* MAIN CELL: Component pathname : $Lab3/default.group/logic.views/TEST
+*
+        C1 Y GROUND 2P
+        V3 N$2 GROUND PULSE ( 0V 3.3V 190n 10n 10n 290n 500n )
+        V2 N$1 GROUND PULSE ( 0V 3.3V 90n 10nS 10nS 190n 300n )
+        V1 VDD GROUND DC 3.3V
+        X_MYNAND21 Y N$1 N$2 MYNAND2
+*
+.model PCH PMOS LEVEL=1
+.model NCH NMOS LEVEL=1
+* Component: $Lab3/default.group/logic.views/TEST  Viewpoint: eldonet
+.TRAN  1n 700N 0 
+.PLOT TRAN  V(N$1)  V(N$2)  V(Y) 
+ 
+
+.end

@@ -1,0 +1,37 @@
+### CustomExplorer log file, revision C-2009.09 (build 0909) ###
+### created at 13:18:21 on Mon Apr 20 2015 (Linux AMD64) ###
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+# (0) fsb dialog open
+# (0) fsb dialog close
+sx_open_sim_file_read "/DCNFS/users/student/ahoff/Documents/ELEN_153/Lab3/prelab3.cir"
+# (0) fsb.ok btn down
+# (0) fsb dialog open
+# (0) fsb dialog close
+sx_open_sim_file_read "/DCNFS/users/student/ahoff/Documents/ELEN_153/Lab3/prelab3.st0"
+# (0) fsb.ok btn down
+# (0) fsb dialog open
+# (0) fsb dialog close
+sx_open_sim_file_read "/DCNFS/users/student/ahoff/Documents/ELEN_153/Lab3/prelab3.ic0"
+# (0) fsb.ok btn down
+# (0) fsb dialog open
+# (0) fsb dialog close
+sx_open_sim_file_read "/DCNFS/users/student/ahoff/Documents/ELEN_153/Lab3/prelab3.pa0"
+# (0) fsb.ok btn down
+# (0) fsb dialog open
+# (0) fsb dialog close
+sx_open_sim_file_read "/DCNFS/users/student/ahoff/Documents/ELEN_153/Lab3/prelab3.tr0"
+# (0) fsb.ok btn down
+sx_log "disp_sig 1 A P=null file=0 S='' W='i(v1)'' "
+sx_log "disp_sig 1 A P=0 file=0 S='' W='i(va)'' "
+sx_log "disp_sig 1 A P=1 file=0 S='' W='i(vb)'' "
+sx_log "disp_sig 1 A P=2 file=0 S='' W='v(0)'' "
+# (0) no panel(s) selected for grouping
+sx_log "move_sig 1 I P=2 "
+sx_log "move_sig 1 I P=2 "
+sx_log "disp_sig 1 A P=1 file=0 S='' W='v(out1)'' "
+sx_log "move_sig 1 I P=0 "
+sx_log "disp_sig 1 A P=6 file=0 S='' W='v(a1)'' "
+sx_log "disp_sig 1 A P=7 file=0 S='' W='v(b1)'' "
